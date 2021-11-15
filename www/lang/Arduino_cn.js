@@ -18,7 +18,7 @@ Blockly.Msg.download = "下载完成, 应用将自动安装并重启 ..."
 // common to all blocks
 Blockly.Msg.HELPURL = "https://ottodiy.com"; // do not translate
 Blockly.Msg.pin = "在引脚";
-Blockly.Msg._AT = "at";
+Blockly.Msg._AT = "为";
 Blockly.Msg.AV = "前进";
 Blockly.Msg.AR = "后退";
 Blockly.Msg.high = "HIGH"; // do not translate
@@ -141,11 +141,11 @@ Blockly.Msg.esp8266_request = "if in the query we find";
 Blockly.Msg.esp8266_request_container = "we find";
 Blockly.Msg.esp8266_html_webpage = "Name of the HTML page:";
 //INTERRUPTION
-Blockly.Msg.LKL_ATTACHINTERRUPT_PIN = 'Interrupt: when a';
-Blockly.Msg.LKL_DETACHINTERRUPT_PIN = "disable interrupt on pin";
+Blockly.Msg.LKL_ATTACHINTERRUPT_PIN = '中断：当';
+Blockly.Msg.LKL_DETACHINTERRUPT_PIN = "取消中断 阵脚";
 Blockly.Msg.LKL_TOOLTIP_INOUT_ATTACHINTERRUPT = "Specifies an action to take when an external interrupt (4 possible modes) occurs on pin 2 or 3";
 Blockly.Msg.LKL_TOOLTIP_INOUT_DETACHINTERRUPT = "Disable the previously specified external interrupt";
-Blockly.Msg.LKL_MODE = 'is detected on the pin';
+Blockly.Msg.LKL_MODE = '当发生在针脚';
 // FIELDDROPDOWN
 Blockly.Msg.note = [[ "DO \u2083", "261"], [ "RE \u2083", "293"], [ "MI \u2083", "329"], [ "FA \u2083", "349"], [ "SOL \u2083", "392"], [ "LA \u2083", "440"], [ "SI \u2083", "493"], [ "DO \u2084", "523 "], [" RE \u2084 "," 587 "], [" MI \u2084 "," 659 "], [" FA \u2084 "," 698 "], [" SOL \u2084 "," 784 "], [ "LA \u2084", "880"]];
 Blockly.Msg.tempo = [["\u266B", "125"], ["\u266A", "250"], ["\u2669", "500"],["𝅗𝅥", "1000"], ["𝅝", "2000"]];
@@ -156,14 +156,14 @@ Blockly.Msg.times = [["seconds", "s"], ["milliseconds", "m"], ["microseconds", "
 Blockly.Msg.time = [["seconds", "s"], ["milliseconds", "m"]];
 Blockly.Msg.char_lcd = [[ "# 1", "1"], [ "# 2", "2"], [ "3", "3"], [ "# 4", "4"], [ "# 5", "5"], [ "# 6", "6"], [ "No. 7", "7"], [ "# 8", "8 "]];
 Blockly.Msg.rxtx = [[ "2", "2"], [ "3", "3"], [ "4", "4"], [ "5", "5"], [ "6 "," 6 "], [" 7 "," 7 "], [" 8 "," 8 "], [" 9 "," 9 "], [" 10 "," 10 "], [" 11 "," 11 "], [" 12 "," 12 "], [" 13 "," 13 "]];
-Blockly.Msg.FIELDDROPDOWN = [["1(high state)", Blockly.Msg.high], ["0(low state)", Blockly.Msg.low]];
+Blockly.Msg.FIELDDROPDOWN = [["1(高)", Blockly.Msg.high], ["0(低)", Blockly.Msg.low]];
 Blockly.Msg.FIELDDROPDOWN_0_1 = [["UP", Blockly.Msg.high], ["DOWN", Blockly.Msg.low]];
 Blockly.Msg.ligne = [["1", "0"], ["2", "1"]];
 Blockly.Msg.colonne = [[ "1", "0"], [ "2", "1"], [ "3", "2"], [ "4", "3"], [ "5 "," 4 "], [" 6 "," 5 "], [" 7 "," 6 "], [" 8 "," 7 "], [" 9 "," 8 "], [" 10 "," 9 "], [" 11 "," 10 "], [" 12 "," 11 "], [" 13 "," 12 "], [" 14 "," 13 "], [" 15 "," 14 "], [" 16 "," 15 "]];
 Blockly.Msg.FIELDDROPDOWN_ONOFF = [["turn on", Blockly.Msg.high], ["turn off", Blockly.Msg.low]];
 Blockly.Msg.FIELDDROPDOWN_ONOFF_matrice = [["1", "true"], ["0", "false"]];
 Blockly.Msg.FIELDDROPDOWN_av_ar = [[Blockly.Msg.AV, Blockly.Msg.high], [Blockly.Msg.AR, Blockly.Msg.low]];
-Blockly.Msg.LKL_DROPDOWN = [['rising edge', 'RISING'], ['falling edge', 'FALLING'], ['changing state', 'CHANGE'], ['low state', Blockly. Msg.low]];
+Blockly.Msg.LKL_DROPDOWN = [['上升', 'RISING'], ['下降', 'FALLING'], ['改变状态', 'CHANGE'], ['状态低', Blockly. Msg.low]];
 Blockly.Msg.irq = [['rising edge', 'Pin.IRQ_RISING'], ['falling edge', 'Pin.IRQ_FALLING'], ['high state', 'Pin.IRQ_HIGH_LEVEL'], ["low state "," Pin.IRQ_LOW_LEVEL "]];
 Blockly.Msg.menudht = [["humidity", "h"], ["temperature", "t"]];
 Blockly.Msg.couleur = [["blue", "blue"], ["yellow", "yellow"], ["red", "red"], ["green", "green"]];
@@ -343,18 +343,18 @@ Blockly.Msg.pixel2_tooltip="show changes made";
 Blockly.Msg.pixel5_tooltip="adjusts pixel brightness (from 0 to 255)";
 Blockly.Msg.pixel3_tooltip="choose the pixel to light and its color \ nCaution the numbering starts at 0";
 // output
-Blockly.Msg.ARDUINO_INOUT_DIGITAL_WRITE_INPUT1 = "put the DIGITAL pin";
+Blockly.Msg.ARDUINO_INOUT_DIGITAL_WRITE_INPUT1 = "设置数字针脚";
 Blockly.Msg.ARDUINO_INOUT_DIGITAL_WRITE_TOOLTIP = "write a 0 or 1 logical state to a specific output";
-Blockly.Msg.toggle = "toggle the state of the pin";
+Blockly.Msg.toggle = "当前值切换 针脚";
 Blockly.Msg.toggle_tooltip = "Toggle: \n write a logical state 0 if before there was a state 1 (and vice versa) on the specified output";
-Blockly.Msg.ARDUINO_INOUT_ANALOG_WRITE_INPUT1 = "put the PWM pin";
+Blockly.Msg.ARDUINO_INOUT_ANALOG_WRITE_INPUT1 = "设置PWM针脚";
 Blockly.Msg.ARDUINO_INOUT_ANALOG_WRITE_TOOLTIP = "send a value between 0 and 255 on a specific output";
 // input
-Blockly.Msg.ARDUINO_INOUT_DIGITAL_READ_INPUT = "DIGITAL pin state";
-Blockly.Msg.in_pullup = "Pull-Up";
+Blockly.Msg.ARDUINO_INOUT_DIGITAL_READ_INPUT = "读取数字针脚";
+Blockly.Msg.in_pullup = "上拉模式";
 Blockly.Msg.in_pullup_tooltip = "returns the logical state (0 or 1) of the indicated pin \nreturns 1 (high state) by default if pull-up enabled";
 Blockly.Msg.ARDUINO_INOUT_DIGITAL_READ_TOOLTIP = "read logical state 0 or 1 of the digital pin";
-Blockly.Msg.ARDUINO_INOUT_ANALOG_READ_INPUT = "ANALOG pin value";
+Blockly.Msg.ARDUINO_INOUT_ANALOG_READ_INPUT = "读取模拟阵脚";
 Blockly.Msg.ARDUINO_INOUT_ANALOG_READ_TOOLTIP = "returns a value between 0 and 1023";
 // audio
 Blockly.Msg.play = "play";
