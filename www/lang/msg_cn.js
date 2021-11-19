@@ -46,7 +46,7 @@ var MSG = {
   xmlLoad: "'OK' to load the new program\n\n'Cancel'  to merge the two programs.",
   timeout: "Maximum number of execution iterations exceeded.",
   badCode: "Program error: \n %1",
-  discard: "Are you sure you want to delete all blocks?",
+  discard: "确信要删除所有的程序块吗?",
   badXml: "XML parsing error: \n %1 \n\nSelect 'OK' to abort your changes or 'Cancel' to continue editing the XML.",
   arduino_card: "Load the settings for the board ",
   aboutModalLabel: "About",
